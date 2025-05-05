@@ -4,7 +4,7 @@ const { Database } = require("sqlite3");
 
 router.get('/', function (req, res, next) {
   res.render('index', {
-    title: 'Auth0 Webapp sample Nodejs',
+    title: 'ProjMate',
     isAuthenticated: req.oidc.isAuthenticated()
   });
   if (req.oidc.isAuthenticated()) {
