@@ -1,25 +1,20 @@
-## ProjMate – Node-Based Team Collaboration Dashboard
-ProjMate is a Node.js-powered collaboration platform designed to help teams manage users, projects, and resources efficiently. It includes authentication, real-time chat, project history tracking, and resource management backed by SQLite databases and an Express.js server.
+# ProjMate – Node-Based Team Collaboration Dashboard
 
-# 🚀 Features
-• User Authentication with OpenID Connect
+**ProjMate** is a Node.js-powered collaboration platform designed to help teams manage users, projects, and resources efficiently. It includes authentication, real-time chat, project history tracking, and resource management backed by SQLite databases and an Express.js server.
 
-• Real-time Chat using Socket.io
+## 🚀 Features
 
-• Project, Resource, and Member Management
+- **User Authentication** with OpenID Connect  
+- **Real-time Chat** using Socket.io  
+- **Project, Resource, and Member Management**  
+- **Activity History Tracking**  
+- **SQLite Integration** for persistent storage  
+- **Dynamic Dashboard and Chat UI** built with EJS and CSS  
+- **AI-Powered Capabilities** integrated via Google Generative AI  
 
-• Activity History Tracking
+## 📂 Project Structure
 
-• SQLite Integration for persistent storage
-
-• Dynamic Dashboard and Chat UI built with EJS and CSS
-
-• AI-Powered Capabilities integrated via Google Generative AI
-
-# 📂 Project Structure
-bash
-Copy
-Edit
+```
 ProjMate/
 │
 ├── server.js                 # Main server logic (Express + WebSockets)
@@ -30,58 +25,56 @@ ProjMate/
 ├── /utils                    # Helper classes (e.g. user management)
 ├── /database                 # SQLite DB files for users, projects, etc.
 └── package.json              # Dependencies and scripts
-🧰 Technologies Used
-Node.js with Express.js
+```
 
-Socket.io for real-time features
+## 🧰 Technologies Used
 
-SQLite3 for lightweight local databases
+- **Node.js** with **Express.js**
+- **Socket.io** for real-time features
+- **SQLite3** for lightweight local databases
+- **EJS** templating for dynamic web pages
+- **Google Generative AI API** for AI features
+- **OpenID Connect** for secure user login
 
-EJS templating for dynamic web pages
+## 🔧 Installation
 
-Google Generative AI API for AI features
+1. **Clone the repository:**
 
-OpenID Connect for secure user login
+   ```bash
+   git clone https://github.com/yourusername/projmate.git
+   cd projmate
+   ```
 
-🔧 Installation
-Clone the repository:
+2. **Install dependencies:**
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/projmate.git
-cd projmate
-Install dependencies:
+   ```bash
+   npm install
+   ```
 
-bash
-Copy
-Edit
-npm install
-Set up .env file:
+3. **Set up `.env` file**:
 
-Create a .env file in the root directory with the following (example):
+   Create a `.env` file in the root directory with the following (example):
 
-ini
-Copy
-Edit
-PORT=3000
-BASE_URL=http://localhost:3000
-Run the application:
+   ```
+   PORT=3000
+   BASE_URL=http://localhost:3000
+   ```
 
-bash
-Copy
-Edit
-npm start
-Visit http://localhost:3000 in your browser.
+4. **Run the application:**
 
-✅ TODO / Improvements
-Admin dashboard and project analytics
+   ```bash
+   npm start
+   ```
 
-File upload and project asset management
+5. **Visit** `http://localhost:3000` in your browser.
 
-Enhanced role-based access control
+## ✅ TODO / Improvements
 
-Deployment scripts (Docker, Vercel, etc.)
+- Admin dashboard and project analytics  
+- File upload and project asset management  
+- Enhanced role-based access control  
+- Deployment scripts (Docker, Vercel, etc.)  
 
-📄 License
-This project is open source and available under the MIT License.
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
