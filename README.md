@@ -59,14 +59,16 @@ ProjMate/
    PORT=3000
    BASE_URL=http://localhost:3000
    ```
+4. **Update your Gemini API Key:**
+   ```Generate your Gemini API Key and update it in the server.js file.```
 
-4. **Run the application:**
+5. **Run the application:**
 
    ```bash
    npm start
    ```
 
-5. **Visit** `http://localhost:3000` in your browser.
+6. **Visit** `http://localhost:3000` in your browser.
 
 ## ✅ TODO / Improvements
 
